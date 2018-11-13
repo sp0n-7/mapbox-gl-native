@@ -1376,6 +1376,11 @@ public:
     {
         [self setUserTrackingMode:MGLUserTrackingModeNone animated:NO];
     }
+    
+    if (!self.zoomEnabled && !self.pitchEnabled && !self.rotateEnabled && !self.scrollEnabled) {
+        return;
+    };
+    
     [self cancelTransitions];
 }
 
