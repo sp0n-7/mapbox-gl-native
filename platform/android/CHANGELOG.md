@@ -2,6 +2,23 @@
 
 Mapbox welcomes participation and contributions from everyone.  If you'd like to do so please see the [`Contributing Guide`](https://github.com/mapbox/mapbox-gl-native/blob/master/CONTRIBUTING.md) first to get started.
 
+## 7.0.0-alpha.1 - November 14, 2018
+ - update to mapbox java services  4.1.0 [#13357](https://github.com/mapbox/mapbox-gl-native/pull/13357)
+ - removed deprecated color conversion from PropertyFactory [#13337](https://github.com/mapbox/mapbox-gl-native/pull/13337)
+ - removed deprecated OnMapChange interface and implementation [#13240](https://github.com/mapbox/mapbox-gl-native/pull/13240)
+ - cleanup isDismissible flag [#13197](https://github.com/mapbox/mapbox-gl-native/pull/13179)
+ - remove java 8 language features [#13193](https://github.com/mapbox/mapbox-gl-native/pull/13193)
+ - removed ZoomButtonsController support [#13198](https://github.com/mapbox/mapbox-gl-native/pull/13198)
+ - Change CustomGeometrySource() signature to be Kotlin friendly [#13178](https://github.com/mapbox/mapbox-gl-native/pull/13178)
+ - remove ILatLng and IProjectedMeteres [#13176](https://github.com/mapbox/mapbox-gl-native/pull/13176)
+ - option to consume map clicks, consuming location clicks [#13205](https://github.com/mapbox/mapbox-gl-native/pull/13205)
+ - consolitdated OfflineRegionDefinitions [#13180](https://github.com/mapbox/mapbox-gl-native/pull/13180)
+ - Added scrollBy() to MapboxMap, depricated  CameraUpdate.scrollBy() [#13223](https://github.com/mapbox/mapbox-gl-native/pull/13223)
+ - improved CustomGeometrySource constructor typing [#13200](https://github.com/mapbox/mapbox-gl-native/pull/13200)
+ - removed deprecated MarkerView[#13194](https://github.com/mapbox/mapbox-gl-native/pull/13194)
+ - annotate onMapReady with @NonNull [#13307](https://github.com/mapbox/mapbox-gl-native/pull/13307)
+
+
 ## 6.6.7 - November 8, 2018
  - Telemetry v3.5.4 [#13330](https://github.com/mapbox/mapbox-gl-native/pull/13330)
 
