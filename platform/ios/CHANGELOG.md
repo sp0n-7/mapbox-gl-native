@@ -5,7 +5,7 @@ Mapbox welcomes participation and contributions from everyone. Please read [CONT
 ## master
 
 * Renamed `-[MGLOfflineStorage putResourceWithUrl:data:modified:expires:etag:mustRevalidate:]` to `-[MGLOfflineStorage preloadData:forURL:modificationDate:expirationDate:eTag:mustRevalidate:]`. ([#13318](https://github.com/mapbox/mapbox-gl-native/pull/13318))
-* Fixed random crashes during app termination.
+* Fixed random crashes during app termination. ([#13367](https://github.com/mapbox/mapbox-gl-native/pull/13367))
 
 ## 4.6.0 - November 7, 2018
 
